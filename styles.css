@@ -1,3 +1,7 @@
+body {
+  color: #666;
+}
+
 .top-margin {
   margin-top: 20px;  
 }
@@ -6,11 +10,28 @@
   margin-bottom: 20px;  
 }
 
+.jumbotron {
+  padding: 50px 25px 25px 25px;
+  width: 100%;
+  clear: both;
+  background: #fff;
+  margin: 0;
+}
+
+.jumbotron-inner {
+  display: table;
+  margin: 0 auto;
+}
+
 .or-spacer {
   margin-top: 20px;
   margin-left: 0px;
   width: 100%;
   position: relative;
+}
+
+.or-spacer.no-top-margin {
+  margin-top: 0px;
 }
 
 .or-spacer .mask {
